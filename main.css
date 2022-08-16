@@ -21,8 +21,8 @@ nav, .moving_navbar, .moving_navbar div{
     padding: 4px 5px;
     transition: all 0.5s;
    
-   
   }
+
   
   .moving_navbar div {
     height: 5px;
@@ -48,7 +48,7 @@ nav, .moving_navbar, .moving_navbar div{
 
 body{
     height: 100vh;
-    width: 100vh;
+    /* width: 100vh; */
     background-image: url("img/new.jpg");
     background-size: cover;
     background-position: center;
@@ -57,11 +57,15 @@ body{
 }
 
 #Title {
+    margin-top: 300px;
 display:flex;
 justify-content:center;
 width:100%;
-color:#00BFFF;
+color: orange;
 }
+
+/* ^white, cream, pink, grey, yellow, green, and lilac. 
+gold, dark blue, brown, orange, and black  */
 
 .about-content a{
     color: rgb(95, 238, 249);  /*change nav font color */
@@ -88,7 +92,7 @@ color:#00BFFF;
     color: white;
     letter-spacing: 2px;
     font-size: 22px;
-    margin-bottom: 25px;
+
     text-transform: capitalize;
 }
 
@@ -98,3 +102,18 @@ color:#00BFFF;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;*/
+
+
+
+#henry img{
+    width: 100px;
+}
+
+.contact_section{
+    background-image: url('img/theme_gif.gif');
+    background-position: center;
+    scroll-behavior: smooth;
+    height: 100%;
+    padding:0;
+    margin:0;
+}
