@@ -33,6 +33,15 @@ Murder.onclick = function () {{L.circle([40.864987, -73.892697], {radius:1000}).
                               {L.circle([40.860922, -73.921504], {radius:1000}).addTo(mymap)}
                               {L.circle([40.640232, -73.944553], {radius:1000}).addTo(mymap)}
                               {L.circle([40.602896, -73.750340], {radius:1000}).addTo(mymap)}};
+let Rape = document.getElementById("Rape-")
+Rape.onclick = function () {{L.circle([40.770419, -73.987619], {radius:1000}).addTo(mymap)}
+                            {L.circle([40.88304527621087, -73.86316365940384], {radius:1000}).addTo(mymap)}
+                            {L.circle([40.754566, -73.911532], {radius:1000}).addTo(mymap)}
+                            {L.circle([40.839618316041815, -73.93573878893353], {radius:1000}).addTo(mymap)}
+                            {L.circle([40.85096094189201, -73.9076304735904], {radius:1000}).addTo(mymap)}
+                            {L.circle([40.83456332842174, -73.87270445824812], {radius:1000}).addTo(mymap)}
+                            {L.circle([40.841646599287465, -73.88073874708076], {radius:1000}).addTo(mymap)}
+                            {L.circle([40.755358, -73.887225], {radius:1000}).addTo(mymap)}};
 //               const marker = L.marker([40.78154477134981, -73.96579497822658]).addTo(mymap);
 //               const circle=L.circle([40.78154477134981, -73.96579497822658], {
 // radius:500}).addTo(mymap)
@@ -41,3 +50,5 @@ Murder.onclick = function () {{L.circle([40.864987, -73.892697], {radius:1000}).
               // 40.860922, -73.921504
               // 40.640232, -73.944553
               // 40.602896, -73.750340
+              // 40.754566, -73.911532
+              // 40.755358, -73.887225
