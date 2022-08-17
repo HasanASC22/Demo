@@ -19,18 +19,19 @@ fetch("https://api.crimeometer.com/v1/incidents/raw-data?lat=42.719296&lon=-84.4
 
 
 
-  const mymap = L.map('map').setView([51.505, -0.09], 13);
+  const mymap = L.map('map').setView([40.78154477134981, -73.96579497822658], 13);
 
-  L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+   L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
                   tileSize: 512,
                   zoomOffset: -1,
                   maxZoom: 18,
                   id:'mapbox/streets-v11',
                   accessToken:apiKey 
               }).addTo(mymap)
+let Murder = document.getElementById("Murder-")
+Murder.onclick = function () {L.circle([40.864987, -73.892697], {radius:500}).addTo(mymap)};
+//               const marker = L.marker([40.78154477134981, -73.96579497822658]).addTo(mymap);
+//               const circle=L.circle([40.78154477134981, -73.96579497822658], {
+// radius:500}).addTo(mymap)
 
-              const marker = L.marker([51.505, -0.09]).addTo(mymap);
-              const circle=L.circle([51.505, -0.09], {
-radius:500}).addTo(mymap)
-
-              
+              // 40.864987, -73.892697

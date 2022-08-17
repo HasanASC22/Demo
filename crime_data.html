@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css"/>
+    <link rel="stylesheet" href="crime.css"/>
   <script defer src="script.js"></script>
     <title>DEMO DAY PROJECT</title>
     <style>
@@ -22,16 +23,157 @@
                     <a href="index.html">Home</a>
                     <a href="crime_data.html">Crime Data</a>
                     <a href="map.html">Map</a>
-                    <a href="gallery.html">Gallery</a>
                     <a href="contact.html">Contact</a>
-                    <input type="text" placeholder="Search..">
+                    
                 </div>
             </div>
           </nav>
     </div>
+    <!-- Crime Section 1 -->
     <div class="crime_section1">
-    <h1>Crime Data/Statistics</h1>
-    <ul></ul>
+      <h1>Crimes Within the Week</h1>
+        <div id="crimes_listed">
+        <ul style="color:black;">_____</ul>
+        <a href="#"><ul class="Murder">Murder</ul></a>
+        <ul class="Rape">Rape</ul>
+        <ul class="class">Robbery</ul>
+        <ul class="Felony">Felony Assault</ul>
+        <ul class="Burglary">Burglary</ul>
+        <ul class="GrandLarceny">Grand Larceny</ul>
+        <ul class="GrandLarcenyAuto">Grand Larceny Auto</ul>
+        <ul>Total</ul>
             </div>
+          
+        <div class="num_crimes21"> 
+          <ul><u>2021</u></ul>
+            <ul>4</ul>
+            <ul>26</ul>
+            <ul>376</ul>
+            <ul>507</ul>
+            <ul>296</ul>
+            <ul>1,025</ul>
+            <ul>243</ul>
+            <ul>2,477</ul>
+          </div>
+          <div id="num_of_crimes22">
+            <ul><u>2022</u></ul>
+            <ul>12</ul>
+            <ul>48</ul>
+            <ul>275</ul>
+            <ul>492</ul>
+            <ul>242</ul>
+            <ul>800</ul>
+            <ul>217</ul>
+            <ul>2,086</ul>
+          </div>
+          <div id="%">
+            <ul><u>% Chg</u></ul>
+            <ul style="color:white;">-66.7%</ul>
+            <ul style="color:white;">-45.8%</ul>
+            <ul style="color:yellow;">36.7%</ul>
+            <ul style="color:yellow;">3.0%</ul>
+            <ul style="color:yellow;">22.3%</ul>
+            <ul style="color:yellow;">28.1%</ul>
+            <ul style="color:yellow;">12.0%</ul>
+            <ul style="color:yellow;">18.07%</ul>
+          </div>
+        </div>
+        <!-- Crime Section 2 -->
+        <div class="crime_section1">
+          <h1>Crimes Within the Year<span>..</span></h1>
+          <div id="crimes_listed">
+          <ul style="color:black;">_____</ul>
+          <a href="#"><ul class="Murder">Murder</ul></a>
+          <ul class="Rape">Rape</ul>
+          <ul class="class">Robbery</ul>
+          <ul class="Felony">Felony Assault</ul>
+          <ul class="Burglary">Burglary</ul>
+          <ul class="GrandLarceny">Grand Larceny</ul>
+          <ul class="GrandLarcenyAuto">Grand Larceny Auto</ul>
+          <ul>Total</ul>
+              </div>
+            
+          <div class="num_crimes21"> 
+            <ul style="color: #89cff0;"><u>2021</u></ul>
+            <ul>296</ul>
+            <ul>940</ul>
+            <ul>7,642</ul>
+            <ul>13,581</ul>
+            <ul>7,203</ul>
+            <ul>21,174</ul>
+            <ul>5,806</ul>
+            <ul>56,642</ul>
+            </div>
+            <div id="num_of_crimes22">
+              <ul style="color:#89CFF0;"><u>2022</u></ul>  
+            <ul>265</ul>
+            <ul>1,015</ul>
+            <ul>10,677</ul>
+            <ul>16,181</ul>
+            <ul>9,517</ul>
+            <ul>31,248</ul>
+            <ul>8,148</ul>
+            <ul>77,087</ul>
+            </div>
+            <div id="%">
+              <ul style="color:#89CFF0;"><u>% Chg</u></ul>
+            <ul style="color:white;">-10.5%</ul>
+            <ul style="color:yellow;">8.0%</ul>
+            <ul style="color:yellow;">39.7%</ul>
+            <ul style="color:yellow;">19.1%</ul>
+            <ul style="color:yellow;">32.1%</ul>
+            <ul style="color:yellow;">47..6%</ul>
+            <ul style="color:yellow;">41.0%</ul>
+            <ul style="color:yellow;">36.17%</ul>
+            </div>
+          </div>
+      <!-- <div class="crime_section2">
+        <div id="year-crimes_listed">
+        <ul>Murder</ul>
+        <ul>Rape</ul>
+        <ul>Robbery</ul>
+        <ul>Felony Assault</ul>
+        <ul>Burglary</ul>
+        <ul>Grand Larceny</ul>
+        <ul>Grand Larceny Auto</ul>
+        <ul>Total</ul>
+        </div>
+      
+        <div id="year-num_of_crimes22">
+            <ul>2022</ul>  
+            <ul>265</ul>
+            <ul>1,015</ul>
+            <ul>10,677</ul>
+            <ul>16,181</ul>
+            <ul>9,517</ul>
+            <ul>31,248</ul>
+            <ul>8,148</ul>
+            <ul>77,087</ul>
+          </div>
+
+          <div id="year-num_of_crimes21">
+            <ul>2021</ul>
+            <ul>296</ul>
+            <ul>940</ul>
+            <ul>7,642</ul>
+            <ul>13,581</ul>
+            <ul>7,203</ul>
+            <ul>21,174</ul>
+            <ul>5,806</ul>
+            <ul>56,642</ul>
+          </div>
+
+          <div id="year-%">
+            <ul>% Chg</ul>
+            <ul>-10.5%</ul>
+            <ul style="color:yellow;">8.0%</ul>
+            <ul style="color:yellow;">39.7%</ul>
+            <ul style="color:yellow;">19.1%</ul>
+            <ul style="color:yellow;">32.1%</ul>
+            <ul style="color:yellow;">47..6%</ul>
+            <ul style="color:yellow;">41.0%</ul>
+            <ul style="color:yellow;">36.17%</ul>
+          </div>
+    </div> -->
 </body>
 </html>

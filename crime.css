@@ -1,0 +1,42 @@
+
+/* Crime Data Section: */
+
+.crime_section1 {
+    width: 75%;
+    background-color: black;
+    color: cyan;
+    display:flex;
+}
+
+.crime_section1 h1{
+    margin-left: 15px;
+    margin-top: 18%;
+    color: #ACE1AF;
+}
+
+
+span{
+    color: black;
+}
+
+/* ^white, cream, pink, grey, yellow, green, and lilac. 
+gold, dark blue, brown, orange, and black  */
+
+a{
+    text-decoration: none;
+}
+
+.Murder{
+    color: cyan;
+}
+
+ .Murder:hover {
+/* background-color: rgba(0, 255, 255, 0.492);
+padding: 10px; */
+font-size: 20px;
+}
+
+#crimes_listed ul:hover {
+
+font-size:20px;
+}
