@@ -57,11 +57,13 @@ body{
 }
 
 #Title {
-    margin-top: 300px;
+font-family: 'Rubik Distressed', cursive;
+letter-spacing: 4px;
+margin-top: 300px;
 display:flex;
 justify-content:center;
 width:100%;
-color: orange;
+color: rgba(0, 0, 0, 0.84);
 }
 
 /* ^white, cream, pink, grey, yellow, green, and lilac. 
