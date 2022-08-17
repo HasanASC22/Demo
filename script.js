@@ -29,9 +29,15 @@ fetch("https://api.crimeometer.com/v1/incidents/raw-data?lat=42.719296&lon=-84.4
                   accessToken:apiKey 
               }).addTo(mymap)
 let Murder = document.getElementById("Murder-")
-Murder.onclick = function () {L.circle([40.864987, -73.892697], {radius:500}).addTo(mymap)};
+Murder.onclick = function () {{L.circle([40.864987, -73.892697], {radius:1000}).addTo(mymap)}
+                              {L.circle([40.860922, -73.921504], {radius:1000}).addTo(mymap)}
+                              {L.circle([40.640232, -73.944553], {radius:1000}).addTo(mymap)}
+                              {L.circle([40.602896, -73.750340], {radius:1000}).addTo(mymap)}};
 //               const marker = L.marker([40.78154477134981, -73.96579497822658]).addTo(mymap);
 //               const circle=L.circle([40.78154477134981, -73.96579497822658], {
 // radius:500}).addTo(mymap)
 
               // 40.864987, -73.892697
+              // 40.860922, -73.921504
+              // 40.640232, -73.944553
+              // 40.602896, -73.750340
