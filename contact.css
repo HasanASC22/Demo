@@ -1,13 +1,14 @@
 /* Contact Section: */
 
 .contact_section{
-    background-image: url('img/newgif.gif');
+    background-color: rgba(255, 255, 255, 0.46);
+    /* background-image: url('img/newgif.gif');
     background-position: center;
     background-size: 100%;
     scroll-behavior: smooth;
     height: 600px;
     padding:0;
-    margin:0;
+    margin:0; */
     
 }
 
