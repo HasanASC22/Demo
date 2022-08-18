@@ -42,6 +42,30 @@ Rape.onclick = function () {{L.circle([40.770419, -73.987619], {radius:1000}).ad
                             {L.circle([40.83456332842174, -73.87270445824812], {radius:1000}).addTo(mymap)}
                             {L.circle([40.841646599287465, -73.88073874708076], {radius:1000}).addTo(mymap)}
                             {L.circle([40.755358, -73.887225], {radius:1000}).addTo(mymap)}};
+
+let Robbery = document.getElementById("Robbery-")
+Robbery.onclick = function () {{L.circle([40.827943, -73.906993], {radius:2000}).addTo(mymap)}
+                               {L.circle([40.831341, -73.863511], {radius:2000}).addTo(mymap)}
+                               {L.circle([40.871798, -73.885558], {radius:2000}).addTo(mymap)}
+                               {L.circle([40.811104, -73.951904], {radius:1500}).addTo(mymap)}
+                               {L.circle([40.791015, -73.971093], {radius:1000}).addTo(mymap)}
+                               {L.circle([40.793179, -73.946596], {radius:1000}).addTo(mymap)}
+                               {L.circle([40.756076, -73.989262], {radius:1000}).addTo(mymap)}
+                               {L.circle([40.720655, -73.986812], {radius:1000}).addTo(mymap)}
+                               {L.circle([40.709636, -73.958255], {radius:1000}).addTo(mymap)}
+                               {L.circle([40.693072, -73.988358], {radius:1000}).addTo(mymap)}
+                               {L.circle([40.718284, -73.952914], {radius:800}).addTo(mymap)}
+                               {L.circle([40.744347, -73.927781], {radius:2000}).addTo(mymap)}
+                               {L.circle([40.749864, -73.871459], {radius:1500}).addTo(mymap)}
+                               {L.circle([40.699822, -73.917585], {radius:1500}).addTo(mymap)}
+                               {L.circle([40.678262, -73.912732], {radius:2000}).addTo(mymap)}
+                               {L.circle([40.632268, -73.991258], {radius:2000}).addTo(mymap)}
+                               {L.circle([40.595011, -73.973936], {radius:1500}).addTo(mymap)}
+                               {L.circle([40.702040, -73.806030], {radius:1000}).addTo(mymap)}
+                               {L.circle([40.681136, -73.853293], {radius:2500}).addTo(mymap)}
+                               {L.circle([40.609239, -73.750296], {radius:500}).addTo(mymap)}
+                               {L.circle([40.593077, -73.790808], {radius:500}).addTo(mymap)}
+                              }
 //               const marker = L.marker([40.78154477134981, -73.96579497822658]).addTo(mymap);
 //               const circle=L.circle([40.78154477134981, -73.96579497822658], {
 // radius:500}).addTo(mymap)
@@ -52,3 +76,5 @@ Rape.onclick = function () {{L.circle([40.770419, -73.987619], {radius:1000}).ad
               // 40.602896, -73.750340
               // 40.754566, -73.911532
               // 40.755358, -73.887225
+              // 40.681136, -73.853293
+              // 40.609239, -73.750296

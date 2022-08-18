@@ -1,4 +1,4 @@
-const x_api_key_level1 = 'u5MrZd7OFR2jvzzwgsPd36WYiShIediY9owvyIpi';
+const x_api_key_level1 = '';
 /* With the API Key Level 1 you have access to:
 - crimeometer_google_maps_heatmap
 - crimeometer_google_maps_markers

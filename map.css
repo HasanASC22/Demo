@@ -6,3 +6,7 @@
     background-color: white;
 }
 
+#Murder- a, #Rape- a, #Robbery- a, #Felony_Assualt- a, #Burglary- a, #Grand_Larceny- a, #Grand_Larceny_Auto- a, #Total- a{
+    text-decoration: none;
+    color: black;
+}
