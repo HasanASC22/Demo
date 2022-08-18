@@ -40,3 +40,10 @@ font-size: 20px;
 
 font-size:20px;
 }
+
+@media(max-height:2000px){ 
+
+    .crime_section1 h1{
+margin-top: 14%
+}
+}

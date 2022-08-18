@@ -154,3 +154,11 @@ gold, dark blue, brown, orange, and black  */
     background-position: 200% center;
   }
 }
+
+#copyright{
+  color: cyan;
+}
+
+
+
+@media(max-width: )
